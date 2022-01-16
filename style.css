@@ -1,0 +1,8 @@
+.result-section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.515);
+    position: fixed;
+    top: 0;
+    left: 0;
+}

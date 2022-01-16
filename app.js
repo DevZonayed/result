@@ -1,0 +1,1 @@
+s('li').map((get)=>{get.style.color = 'crimson'});
