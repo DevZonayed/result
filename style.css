@@ -5,4 +5,72 @@
     position: fixed;
     top: 0;
     left: 0;
+    display: none;
+}
+.resultbg {
+    background: url(./image/resultbg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 600px;
+    margin: auto;
+    height: 774px;
+    position: relative;
+}
+.pop-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.names {
+    list-style: none;
+    font-size: 20px;
+    position: absolute;
+    left: 131px;
+    top: 190px;
+}
+@font-face {
+    font-family: namefont;
+    src: url(./font/certificatescript.ttf);
+}
+.scriptfont{
+    font-family: namefont;
+}
+.names li h3:not(.rol-no) {
+    font-size: 22px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+.rol-no{
+font-size: 14px;
+}
+.reg {
+    left: 438px;
+    top: 307px;
+}
+.reg h3 {
+    font-size: 12px;
+    line-height: 16px;
+}
+.letter-grade {
+    bottom: 130px;
+    left: 300px;
+}
+.gread-point {
+    bottom: 130px;
+    left: 369px;
+}
+.letter-grade li {
+    line-height: 30px;
+}
+.gread-point li {
+    line-height: 30px;
+}
+
+.totalgpa-sec{
+    bottom: 250px;
+    right: 130px;
+}
+.publish-date{
+    bottom: 23px;
+    left: 200px;
+    font-size: 12px;
 }
