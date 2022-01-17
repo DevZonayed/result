@@ -27,12 +27,14 @@
                     placeholder="Type your name"
                     class="form-control me-2 form-inline"
                     type="text"
+                    id="fname"
                   />
                   <span class="input-group-text">Last</span>
                   <input
                     placeholder="Type your name"
                     class="form-control form-inline"
                     type="text"
+                    id="lname"
                   />
                 </div>
               </div>
@@ -44,12 +46,14 @@
                     placeholder="Type your father name"
                     class="form-control me-2 form-inline"
                     type="text"
+                    id="father"
                   />
                   <span class="input-group-text">Mother</span>
                   <input
                     placeholder="Type your mother name"
                     class="form-control form-inline"
                     type="text"
+                    id="mother"
                   />
                 </div>
               </div>
@@ -61,6 +65,7 @@
                     placeholder="Type your name"
                     class="form-control me-2 form-inline"
                     type="date"
+                    id="birthdate"
                   />
                 </div>
               </div>
@@ -71,6 +76,7 @@
                     placeholder="Type your institution name"
                     class="form-control me-2 form-inline"
                     type="text"
+                    id="institution"
                   />
                 </div>
               </div>
@@ -81,6 +87,7 @@
                     placeholder="Type your Roll number"
                     class="form-control me-2 form-inline"
                     type="text"
+                    id="roll"
                   />
                 </div>
               </div>
@@ -91,6 +98,7 @@
                     placeholder="Type your Registration number"
                     class="form-control me-2 form-inline"
                     type="text"
+                    id="reg"
                   />
                 </div>
               </div>
@@ -102,37 +110,37 @@
                     <div class="col">
                         <div class="input-group my-2">
                             <span class="input-group-text">Bangla</span>
-                            <input class="form-control" type="number">
+                            <input class="form-control" id="bn" type="number">
                         </div>
                         <div class="input-group my-2">
                             <span class="input-group-text">English</span>
-                            <input class="form-control" type="number">
+                            <input class="form-control" id="en" type="number">
                         </div>
                         <div class="input-group my-2">
                             <span class="input-group-text">Math</span>
-                            <input class="form-control" type="number">
+                            <input class="form-control" id="math" type="number">
                         </div>
                         <div class="input-group my-2">
                             <span class="input-group-text">S.Science</span>
-                            <input class="form-control" type="number">
+                            <input class="form-control" id="ss" type="number">
                         </div>
                     </div>
                     <div class="col">
                         <div class="input-group my-2">
                             <span class="input-group-text">Religion</span>
-                            <input class="form-control" type="number">
+                            <input class="form-control" id="rel" type="number">
                         </div>
                         <div class="input-group my-2">
                             <span class="input-group-text">Physics</span>
-                            <input class="form-control" type="number">
+                            <input class="form-control" id="phy" type="number">
                         </div>
                         <div class="input-group my-2">
                             <span class="input-group-text">Chemistry</span>
-                            <input class="form-control" type="number">
+                            <input class="form-control" id="che" type="number">
                         </div>
                         <div class="input-group my-2">
                             <span class="input-group-text">Biology</span>
-                            <input class="form-control" type="number">
+                            <input class="form-control" id="bio" type="number">
                         </div>
                     </div>
                 </div>
@@ -141,12 +149,60 @@
         </div>
       </div>
       <div class="submit-area text-center my-5">
-          <button class="btn btn-primary btn-large">Get Result</button>
+          <button id="finalresult" class="btn btn-primary btn-large">Get Result</button>
       </div>
     </section>
 
     <section class="result-section">
-        
+      <div class="resultbg">
+          <button class="btn-close pop-close"></button>
+          <div class="intro">
+            <ul class="names">
+              <li><h3 class=" scriptfont st-nam">Zonayed Ahamad</h3></li>
+              <li><h3 class=" scriptfont sf-nam">Tofajjal hossin</h3></li>
+              <li><h3 class=" scriptfont sm-nam">Bilkis banu</h3></li>
+              <li><h3 class=" scriptfont ins-nam">Padalpara heigh school</h3></li>
+              <li><h3 class=" scriptfont cen-nam">Shapahar</h3></li>
+              <li><h3 class="roll-number">658595</h3></li>
+              <li><h3 class=" scriptfont group">Scince</h3></li>
+            </ul>
+            <ul class="reg position-absolute list-unstyled">
+              <li class="reg-number"><h3>01578368545</h3></li>
+              <li class="birth-date"><h3>02/02/2002</h3></li>
+            </ul>
+          </div>
+          <div class="subject">
+            <ul class="letter-grade list-unstyled position-absolute">
+              <li class="bn">40</li>
+              <li class="en">60</li>
+              <li class="math">70</li>
+              <li class="ss">70</li>
+              <li class="rel">70</li>
+              <li class="phy">70</li>
+              <li class="che">70</li>
+              <li class="bio">70</li>
+            </ul>
+            <ul class="gread-point list-unstyled position-absolute">
+              <li class="bn">A+</li>
+              <li class="en">A+</li>
+              <li class="math">A+</li>
+              <li class="ss">A+</li>
+              <li class="rel">A+</li>
+              <li class="phy">A+</li>
+              <li class="che">A+</li>
+              <li class="bio">A+</li>
+            </ul>
+            <ul class="totalgpa-sec list-unstyled position-absolute">
+              <li class="totalgpa">4.97</li>
+            </ul>
+            <ul class="publish-date list-unstyled position-absolute">
+              <li class="publish">17/01/2022</li>
+            </ul>
+
+          </div>
+            
+
+        </div>
     </section>
 
     <script src="./function.js"></script>
